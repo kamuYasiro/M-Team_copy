@@ -1,0 +1,392 @@
+body{
+  margin:0;
+}
+a{
+  text-decoration: none;
+}
+
+header{
+  position:fixed;
+  width:100%;
+  height:100px;
+  background-color:black;
+  color:white;
+  z-index:5;
+}
+.header-wrapper{
+  width:70%;
+  margin:0 auto;
+}
+.left{
+  float:left;
+}
+.left p{
+  font-size:12px;
+}
+.left a{
+  color:yellow;
+  font-size:30px;
+  font-weight:bold;
+}
+.right{
+  float:right;
+  line-height:100px;
+}
+.soudan{
+  background-color:rgb(255, 51, 153);
+  border-radius:10px;
+  padding:5px 15px;
+}
+.right a{
+  color:white;
+}
+
+.first-view-wrapper{
+  padding:250px 0 150px 0;
+  background-image: url(merlin_182885868_2bf67707-d6aa-454c-a0bd-ea65ffec44ad-superJumbo.jpg);
+  background-position-x:-140px;
+  background-position-y:-280px;
+}
+.first-view{
+  width:75%;
+  margin:0 auto;
+  color:white;
+}
+.first-view h1{
+  font-size:40px;
+}
+.first-view a{
+  color:white;
+  font-size:30px;
+  font-weight:bold;
+  filter: drop-shadow(2px 2px 2px black);
+}
+
+.like-wrapper{
+  padding:50px 0;
+}
+.likes{
+  width:75%;
+  margin:0 auto;
+  text-align:center;
+}
+.likes h2{
+  width:30%;
+  text-align:center;
+  margin:0 auto;
+  font-size:26px;
+  background:linear-gradient(transparent 50%,yellow 50%)
+}
+.like{
+  display:flex;
+  flex-wrap:wrap;
+  margin-top:80px;
+}
+.boxs{
+  width:30%;
+  padding:0 10px;
+  margin:0 auto;
+  margin-bottom:50px;
+}
+.box{
+  position:relative;
+}
+.likes .box h3{
+  padding:10px;
+  box-shadow:2px 2px 5px black;
+  position:absolute;
+  top:-19px;
+}
+.box img{
+  border-radius:20px;
+  width:100%;
+}
+
+.red{
+  background-color:yellow;
+}
+.vioret{
+  background-color:white;
+}
+.water{
+  background-color:rgb(88, 88, 255);
+}
+.green{
+  background-color:rgb(43, 255, 0);
+}
+.orange{
+  background-color:rgb(255, 166, 0);
+}
+
+.movies-wrapper{
+  background-color:wheat;
+  padding:50px 0;
+}
+.movies{
+  width:60%;
+  margin:0 auto;
+}
+.movies h2{
+  text-align:center;
+  margin:0 auto;
+  width:20%;
+  font-size:26px;
+  background:linear-gradient(transparent 50%,yellow 50%)
+}
+.movies .boxs{
+  width:100%;
+  display:flex;
+  flex-wrap:wrap;
+  margin:0;
+  margin-top:50px;
+}
+.movies .box{
+  width:50%;
+  padding:0 10px;
+  box-sizing:border-box;
+  margin-bottom:20px;
+}
+.movies .box iframe{
+  width:100%;
+  object-fit:cover;
+}
+.movies a{
+  text-align:center;
+  display:block;
+  margin:0 auto;
+  width:20%;
+  color:white;
+  background-color:rgb(206, 206, 0);
+  box-shadow:2px 2px 2px black;
+  padding:10px;
+  border-radius:10px;
+  font-size:24px;
+  margin-top:36px;
+}
+.movies .box h3{
+  background-color:white;
+}
+
+
+.movies .box div{
+  background-color:gray;
+  color:white;
+  padding:20px 10px;
+  margin-top:-10px;
+  height:100px;
+}
+.movies .box div h4{
+  margin:0;
+}
+
+.icons-wrapper{
+  padding:50px 0;
+}
+.icons{
+  width:75%;
+  margin:0 auto;
+}
+.icons h2{
+  width:50%;
+  margin:0 auto;
+  text-align:center;
+  font-size:26px;
+  background:linear-gradient(transparent 50%,yellow 50%)
+}
+.icons .boxs{
+  margin-top:20px;
+  display:flex;
+  flex-wrap:wrap;
+  width:50%;
+}
+.icons .box{
+  width:50%;
+  padding:0 10px;
+  box-sizing:border-box;
+}
+.icons .box img{
+  position:relative;
+}
+.icons .box p{
+  position:absolute;
+  font-size:36px;
+  font-weight:bold;
+  top:35%;
+  left:35%;
+}
+
+.soudan-wrapper{
+  background-color:rgb(58, 58, 58);
+  padding:30px 0;
+  text-align:center;
+}
+.soudan-wrapper a{
+  color:white;
+  font-size:36px;
+  font-weight:bold;
+  padding:10px 50px;
+}
+
+.categolys-wrapper{
+  padding:50px 0;
+  font-weight:bold;
+}
+.categolys{
+  width:75%;
+  margin:0 auto;
+}
+.categolys h2{
+  width:15%;
+  margin:0 auto;
+  text-align:center;
+  font-size:26px;
+  background:linear-gradient(transparent 50%,yellow 50%);
+  margin-bottom:20px;
+}
+.categolys .boxs{
+  width:100%;
+}
+.categolys .box{
+  display:flex;
+  text-align:center;
+  height:75px;
+}
+.categolys .left{
+  background-color:lightslategray;
+  width:10%;
+  color:white;
+  border:2px solid white;
+  box-sizing:border-box;
+  line-height:75px;
+}
+.categolys .center{
+  background-color:rgb(223, 239, 255);
+  width:40%;
+  border:2px solid white;
+  box-sizing:border-box;
+  line-height:75px;
+}
+.categolys .right{
+  background-color:rgb(223, 239, 255);
+  width:50%;
+  border:2px solid white;
+  box-sizing:border-box;
+  padding:10px;
+}
+.categolys .right p{
+  margin:0;
+  line-height:25px;
+}
+.categolys .tokutyou{
+  background-color:lightslategray;
+  color:white;
+}
+.categolys .syu{
+  background-color:lightslategray;
+  color:white;
+  line-height:75px;
+  padding:0;
+}
+
+.qestion{
+  width:80%;
+  margin:0 auto;
+  display:inline;
+  text-align:center;
+  line-height:50px;
+}
+.qestion-wrapper{
+  margin-bottom:50px;
+}
+.qestion p{
+  width:70%;
+  margin:0 auto;
+  line-height:1.2;
+  margin-bottom:24px;
+  text-align:left;
+}
+
+footer{
+  background-color:lightgray;
+  padding:20px 0;
+}
+.footer{
+  width:90%;
+  margin:0 auto;
+  display:flex;
+}
+.footer h1{
+  padding:30px 0;
+  letter-spacing: -1px;
+  color:yellow;
+  margin-right:90px;
+}
+.footer .box{
+  width:10%;
+  margin-right:60px;
+  line-height:30px;
+}
+.footer .box li{
+  list-style: none;
+  margin-left:-37px;
+  font-size:14px;
+}
+.footer .box h3{
+  font-size:14px;
+  margin:0;
+}
+
+.first-view h1{
+  filter: drop-shadow(2px 2px 2px black);
+}
+.about{
+  padding:10px;
+  text-align:center;
+  background-color:rgb(238, 238, 238)
+}
+
+@media(max-width:750px){
+  header .right{
+    line-height:normal;
+  }
+  header .right a{
+    display:none;
+  }
+  header .right .soudan{
+    display:block;
+  }
+  .first-view-wrapper{
+    background-position-x:-1000px;
+  }
+  .like-wrapper h2,.movies-wrapper h2,.categolys-wrapper h2{
+    font-size:20px;
+    width:60%;
+  }
+  .like-wrapper .boxs,.movies-wrapper .box{
+    width:100%;
+  }
+  .movies a{
+    width:50%;
+  }
+  .categolys .box{
+    height:auto;
+  }
+  .categolys .box .left{
+    width:20%;
+  }
+  .categolys .box .left,.categolys .box .center,.categolys .box .right{
+    vertical-align:middle;
+    line-height:normal;
+    padding-top:25px;
+  }
+  .footer h1{
+    width:130px;
+    margin-right:30px;
+  }
+  .footer .box{
+    margin-right:10px;
+  }
+  .footer .box li{
+    font-size:10px;
+  }
+}
