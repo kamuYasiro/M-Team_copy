@@ -44,7 +44,7 @@ header{
 .first-view-wrapper{
   padding:250px 0 150px 0;
   background-image: url(merlin_182885868_2bf67707-d6aa-454c-a0bd-ea65ffec44ad-superJumbo.jpg);
-  background-position-x:-140px;
+  background-position-x:center;
   background-position-y:-280px;
 }
 .first-view{
@@ -71,7 +71,7 @@ header{
   text-align:center;
 }
 .likes h2{
-  width:30%;
+  width:420px;
   text-align:center;
   margin:0 auto;
   font-size:26px;
@@ -129,7 +129,7 @@ header{
 .movies h2{
   text-align:center;
   margin:0 auto;
-  width:20%;
+  width:200px;
   font-size:26px;
   background:linear-gradient(transparent 50%,yellow 50%)
 }
@@ -236,7 +236,7 @@ header{
   margin:0 auto;
 }
 .categolys h2{
-  width:15%;
+  width:200px;
   margin:0 auto;
   text-align:center;
   font-size:26px;
