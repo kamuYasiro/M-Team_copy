@@ -234,6 +234,7 @@ header{
 .categolys{
   width:75%;
   margin:0 auto;
+  overflow-x:scroll;
 }
 .categolys h2{
   width:200px;
@@ -244,7 +245,7 @@ header{
   margin-bottom:20px;
 }
 .categolys .boxs{
-  width:100%;
+  width:1000px;
 }
 .categolys .box{
   display:flex;
@@ -395,7 +396,7 @@ footer{
 }
 
 @media(max-width:450px){
-  .right{
+  header .right{
     display:none;
   }
   .first-view h1{
