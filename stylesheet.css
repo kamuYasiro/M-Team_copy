@@ -390,3 +390,19 @@ footer{
     font-size:10px;
   }
 }
+
+@media(max-width:450px){
+  .right{
+    display:none;
+  }
+  .first-view h1{
+    font-size:28px;
+  }
+  .first-view-wrapper{
+    background-position-x: -1200px;
+  }
+  .movies{
+    width:80%;
+  }
+  
+}
