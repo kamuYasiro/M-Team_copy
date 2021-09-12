@@ -408,5 +408,8 @@ footer{
   .movies{
     width:80%;
   }
+  .categolys .boxs {
+    font-size: 1em;
+}
   
 }
